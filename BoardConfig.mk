@@ -57,10 +57,8 @@ TARGET_SCREEN_DENSITY := 711
 TW_THEME := portrait_hdpi
 TW_ROTATION := 270
 
-# exFAT FS Support
+# File system support
 TW_INCLUDE_FUSE_EXFAT := true
-
-# NTFS Support
 TW_INCLUDE_NTFS_3G := true
 
 # Use mke2fs to create ext4 images
@@ -94,6 +92,10 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
+#TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
