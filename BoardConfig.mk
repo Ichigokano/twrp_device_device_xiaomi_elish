@@ -55,7 +55,6 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Display
 TARGET_SCREEN_DENSITY := 711
-TW_THEME := portrait_hdpi
 TW_ROTATION := 270
 
 # File system support
